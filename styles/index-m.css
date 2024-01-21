@@ -18,6 +18,10 @@ body {
 }
 
 /* header */
+header .main-logo {
+  width: 130px;
+  height: 30px;
+}
 
 /* main */
 .main h3 {
