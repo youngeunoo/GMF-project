@@ -116,8 +116,20 @@ body {
 .ticket table {
   font-size: 18px;
 }
+.ticket table tr th {
+  color: #007b73;
+  padding: 0 10px;
+  width: 100px;
+}
 .ticket .notice p {
   font-size: 14px;
+}
+
+/* PLACE */
+.place .place-contents p {
+  word-break: keep-all;
+  font-size: 16px;
+  margin: 50px 0 0;
 }
 
 /* footer */
