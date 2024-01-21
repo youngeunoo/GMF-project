@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRAND MINT FESTIVAL 2017</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/GMF2017_logo-02.png"
+      type="image/x-icon"
+    />
+    <!-- RESET -->
+    <link rel="stylesheet" href="./styles/minireset.min.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- tablet -->
+    <link
+      rel="stylesheet"
+      media="(width<=1020px)"
+      href="./styles/index-t.css"
+    />
+    <!-- mobile -->
+    <link rel="stylesheet" media="(width<=767px)" href="./styles/index-m.css" />
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <!-- ScrollTrigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <!-- js -->
+    <script defer src="./index.js"></script>
+  </head>
+
+  <body>
+    <header class="flex">
+      <div class="back-filter"></div>
+      <a href="#" class="main-logo"
+        ><img src="./images/logo.png" alt="민트페이퍼 로고"
+      /></a>
+      <nav>
+        <ul class="main-menu">
+          <li class="main-nav"><a href="#main">GMF</a></li>
+          <li class="menu">
+            <a href="#"><img src="./images/menu.svg" alt="메뉴" /></a>
+          </li>
+          <li class="none-menu"><a href="#lineup">LINEUP</a></li>
+          <li class="none-menu"><a href="#timetable">TIMETABLE</a></li>
+          <li class="none-menu"><a href="#ticket">TICKET</a></li>
+          <li class="none-menu"><a href="#place">FESTIVAL MAP</a></li>
+        </ul>
+        <ul class="toggle-menu">
+          <li class="none-menu"><a href="#main">LINEUP</a></li>
+          <li class="none-menu"><a href="#timetable">TIMETABLE</a></li>
+          <li class="none-menu"><a href="#ticket">TICKET</a></li>
+          <li class="none-menu"><a href="#place">FESTIVAL MAP</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <section class="main flex" id="main">
+      <h3><img src="./images/GMF2017-02-03.png" alt="GMF로고" /></h3>
+    </section>
+
+    <!-- LINEUP -->
+    <section class="lineup flex" id="lineup">
+      <div class="lineup-bar bar-wrap">
+        <ul>
+          <li class="2017 now bar">
+            <h4>2017</h4>
+            <p>Grand Mint Festival 2017</p>
+            <p>11th anniversary</p>
+            <p>10. 21(sat) - 10. 22(sun) OLYMPIC PARK</p>
+          </li>
+          <li class="bar">
+            <h4><a href="#timetable">TIMETABLE</a></h4>
+          </li>
+          <li class="bar">
+            <h4><a href="#ticket">TICKET</a></h4>
+          </li>
+          <li class="bar">
+            <h4><a href="#place">FESTIVAL MAP</a></h4>
+          </li>
+        </ul>
+      </div>
+      <div class="lineup-contents contents">
+        <h2>LINEUP</h2>
+        <div class="lineup-box">
+          <div class="sat-line">
+            <div class="sat date">10/21 SAT</div>
+            <div class="stage-wrap">
+              <div class="mintbreeze stage">
+                <h4>
+                  <img src="./images/mintbreeze.png" alt="민트브리즈스테이지" />
+                </h4>
+                <ul>
+                  <li class="head">정준일</li>
+                  <li>검정치마</li>
+                  <li>어반자카파</li>
+                  <li>페퍼톤스</li>
+                  <li>소란</li>
+                  <li>샘김</li>
+                </ul>
+              </div>
+              <div class="midnight stage">
+                <h4><img src="./images/midnight.png" alt="미드나잇선셋" /></h4>
+                <ul>
+                  <li class="head">박재범</li>
+                  <li>자이언티</li>
+                  <li>DEAN</li>
+                  <li>칵스</li>
+                  <li>피터팬 컴플렉스</li>
+                  <li>창모</li>
+                </ul>
+              </div>
+              <div class="lovingforest stage">
+                <h4>
+                  <img src="./images/livingforest.png" alt="러빙포레스트" />
+                </h4>
+                <ul>
+                  <li class="head">데이브레이크</li>
+                  <li>옥상달빛</li>
+                  <li>멜로망스</li>
+                  <li>폴킴</li>
+                  <li>마인드유</li>
+                  <li>오왠</li>
+                </ul>
+              </div>
+              <div class="blossom stage">
+                <h4><img src="./images/blossom.png" alt="블라섬하우스" /></h4>
+                <ul>
+                  <li>문문</li>
+                  <li>신해경</li>
+                  <li>ELO & Hoody</li>
+                  <li>스텔라장</li>
+                  <li>닉앤쌔미</li>
+                  <li>이요한</li>
+                  <li>애쉬락</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="./images/pptnz.png" alt="페퍼톤스" class="pptnz pic" />
+            <img src="./images/db.png" alt="데이브레이크" class="db pic" />
+          </div>
+        </div>
+        <div class="lineup-box">
+          <div class="sun-line">
+            <div class="sun date">10/22 SUN</div>
+            <div class="stage-wrap">
+              <div class="mintbreeze stage">
+                <h4>
+                  <img src="./images/mintbreeze.png" alt="민트브리즈스테이지" />
+                </h4>
+                <ul>
+                  <li class="head">10CM</li>
+                  <li>포르테 디 콰트로</li>
+                  <li>수지</li>
+                  <li>박원</li>
+                  <li>치즈</li>
+                  <li>유승우 X 정세운</li>
+                </ul>
+              </div>
+              <div class="midnight stage">
+                <h4><img src="./images/midnight.png" alt="미드나잇선셋" /></h4>
+                <ul>
+                  <li class="head">브로콜리너마저</li>
+                  <li>노리플라이</li>
+                  <li>쏜애플</li>
+                  <li>짙은</li>
+                  <li>디어클라우드</li>
+                  <li>잔나비</li>
+                  <li>위아영</li>
+                </ul>
+              </div>
+              <div class="lovingforest stage">
+                <h4>
+                  <img src="./images/livingforest.png" alt="러빙포레스트" />
+                </h4>
+                <ul>
+                  <li class="head">스탠딩 에그</li>
+                  <li>심규선</li>
+                  <li>빌리어코스티</li>
+                  <li>슈가볼</li>
+                  <li>이지형</li>
+                  <li>솔루션스<span>(UNPLUGGED SET)</span></li>
+                </ul>
+              </div>
+              <div class="blossom stage">
+                <h4><img src="./images/blossom.png" alt="블라섬하우스" /></h4>
+                <ul>
+                  <li>윤딴딴</li>
+                  <li>이진아</li>
+                  <li>구윤회</li>
+                  <li>장희원</li>
+                  <li>1415</li>
+                  <li>화려</li>
+                  <li>웨터</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="./images/10cm.png" alt="십센치" class="tencm pic" />
+            <img
+              src="./images/solutions.png"
+              alt="솔루션스"
+              class="solutions pic"
+            />
+            <img src="./images/pp.png" alt="우주인" class="space pic" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMETABLE -->
+    <section class="timetable flex" id="timetable">
+      <div class="timetable-bar bar-wrap">
+        <ul>
+          <li class="bar">
+            <h4><a href="#lineup">2017</a></h4>
+          </li>
+          <li class="time now bar">
+            <h4>TIMETABLE</h4>
+            <p>Grand Mint Festival 2017</p>
+            <p>11th anniversary</p>
+            <p>10. 21(sat) - 10. 22(sun) OLYMPIC PARK</p>
+          </li>
+          <li class="bar">
+            <h4><a href="#ticket">TICKET</a></h4>
+          </li>
+          <li class="bar">
+            <h4><a href="#place">FESTIVAL MAP</a></h4>
+          </li>
+        </ul>
+      </div>
+      <div class="timetable-box flex">
+        <div class="timetable-contents contents time-sat">
+          <h2>10 / 21 sat</h2>
+          <img
+            src="./images/timetable1.png"
+            alt="타임테이블01"
+            class="timeIMG"
+          />
+          <div class="select-box">
+            <select name="timetable" id="timetable-img-sat">
+              <option value="./images/timetable-day1-mintbreeze.png">
+                Mint Breeze Stage
+              </option>
+              <option value="./images/timetable-day1-midnight.png">
+                CLUB MIDNIGHT SUNSET
+              </option>
+              <option value="./images/timetable-day1-lovingforest.png">
+                LOVING FOREST GARDEN
+              </option>
+              <option value="./images/timetable-day1-blossom.png">
+                cafe Blossom House
+              </option>
+            </select>
+            <img
+              src="./images/timetable-day1-mintbreeze.png"
+              alt="스테이지 선택"
+              class="select-img-sat"
+            />
+          </div>
+        </div>
+        <div class="timetable-contents contents time-sun">
+          <h2>10 / 22 sun</h2>
+          <img
+            src="./images/timetable2.png"
+            alt="타임테이블02"
+            class="timeIMG"
+          />
+          <div class="select-box">
+            <select name="timetable" id="timetable-img-sun">
+              <option value="./images/timetable-day2-mintbreeze.png">
+                Mint Breeze Stage
+              </option>
+              <option value="./images/timetable-day2-midnight.png">
+                CLUB MIDNIGHT SUNSET
+              </option>
+              <option value="./images/timetable-day2-lovingforest.png">
+                LOVING FOREST GARDEN
+              </option>
+              <option value="./images/timetable-day2-blossom.png">
+                cafe Blossom House
+              </option>
+            </select>
+            <img
+              src="./images/timetable-day2-mintbreeze.png"
+              alt="민트브리즈스테이지"
+              class="select-img-sun"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TICKET -->
+    <section class="ticket flex" id="ticket">
+      <div class="ticket-bar bar-wrap">
+        <ul>
+          <li class="bar">
+            <h4><a href="#lineup">2017</a></h4>
+          </li>
+          <li class="bar">
+            <h4><a href="#timetable">TIMETABLE</a></h4>
+          </li>
+          <li class="official now bar">
+            <h4>OFFICIAL TICKET</h4>
+            <p>Grand Mint Festival 2017</p>
+            <p>11th anniversary</p>
+            <p>10. 21(sat) - 10. 22(sun) OLYMPIC PARK</p>
+          </li>
+          <li class="bar">
+            <h4><a href="#place">FESTIVAL MAP</a></h4>
+          </li>
+        </ul>
+      </div>
+      <div class="ticket-contents contents">
+        <h2>OFFICIAL TICKET</h2>
+        <p class="ticket-title">공식 티켓</p>
+        <table>
+          <tr>
+            <th>티켓 오픈</th>
+            <td>8/2(수) 2PM</td>
+          </tr>
+          <tr>
+            <th>매수 제한</th>
+            <td>1인당 4매</td>
+          </tr>
+          <tr>
+            <th rowspan="2">가격</th>
+            <td>1일권 99,000원</td>
+          </tr>
+          <tr>
+            <td>2일권 158,000원</td>
+          </tr>
+          <tr>
+            <th>예매처</th>
+            <td>인터파크 / 예스24</td>
+          </tr>
+        </table>
+        <div class="notice">
+          <p>
+            8/31(목) 오후 5시까지 예매 완료 시 일괄 배송(발송일 9/20(수) /
+            배송비 무료)
+          </p>
+          <p>
+            8/31(목) 오후 5시 이후 예매 시 사전 배송(배송료 발생) 또는 현장 수령
+            선택 가능
+          </p>
+          <p>2일권 예매 시 10월 21일(토) 선택 후 예매 진행</p>
+          <p>예매 명의, 1일권 날짜, 권종 변경 불가</p>
+          <p>전체 수용 인원 제한으로 사전 공지 없이 조기 매진 가능</p>
+          <p>현장에서 티켓을 손목밴드로 교환, 착용 후 입장 가능</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACE -->
+    <section class="place flex" id="place">
+      <div class="place-bar bar-wrap">
+        <ul>
+          <li class="bar">
+            <h4><a href="#lineup">2017</a></h4>
+          </li>
+          <li class="bar">
+            <h4><a href="#timetable">TIMETABLE</a></h4>
+          </li>
+          <li class="bar">
+            <h4><a href="#ticket">TICKET</a></h4>
+          </li>
+          <li class="map now bar">
+            <h4>FESTIVAL MAP</h4>
+            <p>Grand Mint Festival 2017</p>
+            <p>11th anniversary</p>
+            <p>10. 21(sat) - 10. 22(sun) OLYMPIC PARK</p>
+          </li>
+        </ul>
+      </div>
+      <div class="place-contents contents">
+        <h2>2017 PLACE</h2>
+        <img src="./images/festival_map.jpg" alt="페스티벌맵" />
+        <p>현장 상황에 따라 변동이 있을 수 있습니다.</p>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-box flex">
+        <div class="logo-box">
+          <p>Mint Paper <br />PRESENTS</p>
+          <div class="btn-box flex">
+            <button>
+              <a
+                href="https://www.mintpaper.co.kr/festivals/18"
+                target="_blank"
+              >
+                <span class="num">01</span><span class="txt">MORE INFO</span
+                ><img src="./images/arrow_right.svg" alt="화살표"
+              /></a>
+            </button>
+            <button>
+              <a
+                href="https://youtu.be/sstRXOiBeu4?si=iqsW4pFa8Ve9VtgC"
+                target="_blank"
+                ><span class="num">02</span><span class="txt">THEME SONG</span
+                ><img src="./images/arrow_right.svg" alt="화살표"
+              /></a>
+            </button>
+            <button>
+              <a
+                href="https://www.mintpaper.co.kr/festivals/18/notice"
+                target="_blank"
+              >
+                <span class="num">03</span><span class="txt">NOTICE</span
+                ><img src="./images/arrow_right.svg" alt="화살표"
+              /></a>
+            </button>
+          </div>
+          <img
+            src="./images/GMF2017-02-03.png"
+            alt="GMF로고"
+            class="GMF-logo"
+          />
+        </div>
+        <div class="link-box flex">
+          <a href="https://www.mintpaper.co.kr/" target="_blank"
+            ><img src="./images/logo.png" alt="로고"
+          /></a>
+          <a href="https://www.instagram.com/grandmintfestival/" target="_blank"
+            ><img src="./images/instagram-02.png" alt="인스타그램"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-line flex">
+        <p>Copyright © youngeun 2024</p>
+        <p>
+          <a href="https://youngeunoo.github.io/portfolio/" target="_blank"
+            >Portfolio</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

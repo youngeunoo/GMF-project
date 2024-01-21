@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/* common */
+.bar-wrap {
+  display: none;
+}
+.contents {
+  width: 100%;
+}
+.contents h2 {
+  @media (width<=830px) {
+    font-size: 70px;
+  }
+}
+
+/* header */
+header .back-filter {
+  width: 120%;
+  height: 100vh;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  backdrop-filter: blur(5px);
+}
+header nav .main-menu .none-menu {
+  display: none;
+}
+header nav .toggle-menu {
+  position: absolute;
+  transform: translateY(-500px);
+  left: -10px;
+  width: 110%;
+  opacity: 0;
+  /* backdrop-filter: blur(10px); */
+}
+header nav .toggle-menu li {
+  background-color: #fff;
+  font-size: 26px;
+}
+header nav .toggle-menu li a {
+  display: inline-block;
+  padding: 30px 20px;
+  width: 100%;
+}
+
+/* main */
+.main h3 {
+  width: 35vw;
+}
+
+/* LINEUP */
+.lineup .lineup-contents .lineup-box .date {
+  @media (width<=830px) {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+}
+.lineup .lineup-contents .lineup-box .stage-wrap .stage h4 {
+  width: 300px;
+  @media (width<=830px) {
+    width: 200px;
+  }
+}
+.lineup .lineup-contents .lineup-box .stage-wrap .stage ul {
+  font-size: 24px;
+  width: 320px;
+  gap: 5px 13px;
+  @media (width<=830px) {
+    font-size: 20px;
+    width: 260px;
+    gap: 3px 10px;
+  }
+}
+.lineup .lineup-contents .lineup-box .stage-wrap .stage ul .head {
+  font-size: 26px;
+  @media (width<=830px) {
+    font-size: 22px;
+  }
+}
+.lineup .lineup-contents .lineup-box .img-box {
+  height: 400px;
+  @media (width<=830px) {
+    height: 350px;
+  }
+}
+.lineup .lineup-contents .lineup-box .pptnz {
+  width: 48vw;
+}
+.lineup .lineup-contents .lineup-box .db {
+  width: 33vw;
+}
+.lineup .lineup-contents .lineup-box .tencm {
+  width: 34vw;
+  right: 20px;
+  @media (width<=830px) {
+    width: 37vw;
+    top: -20px;
+  }
+}
+.lineup .lineup-contents .lineup-box .solutions {
+  width: 18vw;
+  right: 300px;
+  @media (width<=830px) {
+    width: 20vw;
+    right: 250px;
+    top: 170px;
+  }
+}
+.lineup .lineup-contents .lineup-box .space {
+  width: 32vw;
+  left: 20px;
+  @media (width<=830px) {
+    top: 100px;
+  }
+}
+
+/* TIMETABLE */
+.timetable .timetable-box {
+  width: 100%;
+}
+
+/* PLACE */
+.place .place-contents p {
+  @media (width<=830px) {
+    margin: 20px 0 0;
+  }
+}
+
+/* footer */
+footer .footer-box .logo-box {
+  width: 40%;
+}
+footer .footer-box .logo-box p {
+  @media (width<=830px) {
+    font-size: 28px;
+  }
+}
+footer .footer-box .logo-box .btn-box button {
+  @media (width<=830px) {
+    font-size: 24px;
+  }
+}
+footer .footer-box .logo-box .btn-box button img {
+  @media (width<=830px) {
+    height: 30px;
+  }
+}
+footer .footer-box .link-box {
+  position: absolute;
+  bottom: 50px;
+  right: 5px;
+  width: 59%;
+}
+footer .footer-box .link-box a {
+  height: 700px;
+  @media (width<=830px) {
+    height: 550px;
+  }
+}
